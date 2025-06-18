@@ -6,6 +6,6 @@ uint64_t square(uint8_t index) {
 }
 
 uint64_t total(void) {
-	uint64_t total = (uint64_t) pow(2, 64);
+	uint64_t total = (uint64_t) pow(2, 64) - 1;
 	return total;
 }
