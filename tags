@@ -111,9 +111,7 @@ Based on	./c/leap/README.md	/^### Based on$/;"	S	section:Leap""Source
 Based on	./c/queen-attack/README.md	/^### Based on$/;"	S	section:Queen Attack""Source
 Based on	./c/resistor-color/README.md	/^### Based on$/;"	S	section:Resistor Color""Source
 CAN_ATTACK	./c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon9f3e92310103
-CAN_ATTACK	c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon1cf73cae0103
 CAN_NOT_ATTACK	./c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon9f3e92310103
-CAN_NOT_ATTACK	c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon1cf73cae0103
 CFLAGS	./c/collatz-conjecture/makefile	/^CFLAGS  = -std=c99$/;"	m
 CFLAGS	./c/grains/makefile	/^CFLAGS  = -std=c99$/;"	m
 CFLAGS	./c/hello-world/makefile	/^CFLAGS  = -std=c99$/;"	m
@@ -203,7 +201,6 @@ Help	./c/leap/HELP.md	/^# Help$/;"	c
 Help	./c/queen-attack/HELP.md	/^# Help$/;"	c
 Help	./c/resistor-color/HELP.md	/^# Help$/;"	c
 INVALID_POSITION	./c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon9f3e92310103
-INVALID_POSITION	c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	e	enum:__anon1cf73cae0103
 Instructions	./c/collatz-conjecture/README.md	/^## Instructions$/;"	s	chapter:Collatz Conjecture
 Instructions	./c/grains/README.md	/^## Instructions$/;"	s	chapter:Grains
 Instructions	./c/hello-world/README.md	/^## Instructions$/;"	s	chapter:Hello World
@@ -227,7 +224,6 @@ LIBS	./c/leap/makefile	/^LIBS = -lm$/;"	m
 LIBS	./c/queen-attack/makefile	/^LIBS = -lm$/;"	m
 LIBS	./c/resistor-color/makefile	/^LIBS = -lm$/;"	m
 Leap	./c/leap/README.md	/^# Leap$/;"	c
-NOT_DEFINED_ERROR_CODE	c/queen-attack/queen_attack.h	/^#define NOT_DEFINED_ERROR_CODE /;"	d
 Need to get help?	./c/collatz-conjecture/HELP.md	/^## Need to get help?$/;"	s	chapter:Help
 Need to get help?	./c/grains/HELP.md	/^## Need to get help?$/;"	s	chapter:Help
 Need to get help?	./c/hello-world/HELP.md	/^## Need to get help?$/;"	s	chapter:Help
@@ -242,7 +238,6 @@ NumberOfTests	./c/queen-attack/test-framework/unity_internals.h	/^    UNITY_COUN
 NumberOfTests	./c/resistor-color/test-framework/unity_internals.h	/^    UNITY_COUNTER_TYPE NumberOfTests;$/;"	m	struct:UNITY_STORAGE_T	typeref:typename:UNITY_COUNTER_TYPE
 ORANGE	./c/resistor-color/resistor_color.h	/^	ORANGE = 3,$/;"	e	enum:__anon03ce40790103
 OUT_OF_RANGE_TILES	./c/queen-attack/queen_attack.h	/^#define OUT_OF_RANGE_TILES /;"	d
-OUT_OF_RANGE_TILES	c/queen-attack/queen_attack.h	/^#define OUT_OF_RANGE_TILES /;"	d
 PROGMEM	./c/collatz-conjecture/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
 PROGMEM	./c/grains/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
 PROGMEM	./c/hello-world/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
@@ -250,7 +245,6 @@ PROGMEM	./c/leap/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
 PROGMEM	./c/queen-attack/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
 PROGMEM	./c/resistor-color/test-framework/unity.c	/^#define PROGMEM$/;"	d	file:
 QUEEN_ATTACK_H	./c/queen-attack/queen_attack.h	/^#define QUEEN_ATTACK_H$/;"	d
-QUEEN_ATTACK_H	c/queen-attack/queen_attack.h	/^#define QUEEN_ATTACK_H$/;"	d
 Queen Attack	./c/queen-attack/README.md	/^# Queen Attack$/;"	c
 RED	./c/resistor-color/resistor_color.h	/^	RED = 2,$/;"	e	enum:__anon03ce40790103
 RESISTOR_COLOR_H	./c/resistor-color/resistor_color.h	/^#define RESISTOR_COLOR_H$/;"	d
@@ -3021,7 +3015,7 @@ TestIgnores	./c/hello-world/test-framework/unity_internals.h	/^    UNITY_COUNTER
 TestIgnores	./c/leap/test-framework/unity_internals.h	/^    UNITY_COUNTER_TYPE TestIgnores;$/;"	m	struct:UNITY_STORAGE_T	typeref:typename:UNITY_COUNTER_TYPE
 TestIgnores	./c/queen-attack/test-framework/unity_internals.h	/^    UNITY_COUNTER_TYPE TestIgnores;$/;"	m	struct:UNITY_STORAGE_T	typeref:typename:UNITY_COUNTER_TYPE
 TestIgnores	./c/resistor-color/test-framework/unity_internals.h	/^    UNITY_COUNTER_TYPE TestIgnores;$/;"	m	struct:UNITY_STORAGE_T	typeref:typename:UNITY_COUNTER_TYPE
-UNDEFINED_ERROR_CODE	c/queen-attack/queen_attack.h	/^#define UNDEFINED_ERROR_CODE /;"	d
+UNDEFINED_ERROR_CODE	./c/queen-attack/queen_attack.h	/^#define UNDEFINED_ERROR_CODE /;"	d
 UNITY	./c/collatz-conjecture/test-framework/unity.h	/^#define UNITY$/;"	d
 UNITY	./c/grains/test-framework/unity.h	/^#define UNITY$/;"	d
 UNITY	./c/hello-world/test-framework/unity.h	/^#define UNITY$/;"	d
@@ -5525,8 +5519,6 @@ __anon03ce40790103	./c/resistor-color/resistor_color.h	/^typedef enum {$/;"	g
 __anon083dade30103	./c/collatz-conjecture/test-framework/unity_internals.h	/^{$/;"	g
 __anon083dade30203	./c/collatz-conjecture/test-framework/unity_internals.h	/^{$/;"	g
 __anon083dade30303	./c/collatz-conjecture/test-framework/unity_internals.h	/^{$/;"	g
-__anon1cf73cae0103	c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	g
-__anon1cf73cae0208	c/queen-attack/queen_attack.h	/^typedef struct {$/;"	s
 __anon6f505abe010a	./c/resistor-color/test-framework/unity.c	/^{$/;"	u	file:
 __anon78008e5b010a	./c/grains/test-framework/unity.c	/^{$/;"	u	file:
 __anon79fa06d9010a	./c/leap/test-framework/unity.c	/^{$/;"	u	file:
@@ -5551,7 +5543,6 @@ __anonee9e01320103	./c/resistor-color/test-framework/unity_internals.h	/^{$/;"	g
 __anonee9e01320203	./c/resistor-color/test-framework/unity_internals.h	/^{$/;"	g
 __anonee9e01320303	./c/resistor-color/test-framework/unity_internals.h	/^{$/;"	g
 attack_status_t	./c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	t	typeref:enum:__anon9f3e92310103
-attack_status_t	c/queen-attack/queen_attack.h	/^typedef enum { CAN_NOT_ATTACK, CAN_ATTACK, INVALID_POSITION } attack_status_t;$/;"	t	typeref:enum:__anon1cf73cae0103
 authors	./c/collatz-conjecture/.exercism/config.json	/^  "authors": [$/;"	a
 authors	./c/grains/.exercism/config.json	/^  "authors": [$/;"	a
 authors	./c/hello-world/.exercism/config.json	/^  "authors": [$/;"	a
@@ -5571,8 +5562,8 @@ blurb	./c/leap/.exercism/config.json	/^  "blurb": "Determine whether a given yea
 blurb	./c/queen-attack/.exercism/config.json	/^  "blurb": "Given the position of two queens on a chess board, indicate whether or not they are /;"	s
 blurb	./c/resistor-color/.exercism/config.json	/^  "blurb": "Convert a resistor band's color to its numeric representation.",$/;"	s
 can_attack	./c/queen-attack/queen_attack.c	/^attack_status_t can_attack(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:attack_status_t
-can_attack	c/queen-attack/queen_attack.c	/^attack_status_t can_attack(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:attack_status_t
-checkNotSamePos	c/queen-attack/queen_attack.c	/^bool checkNotSamePos(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
+checkCanAttack	./c/queen-attack/queen_attack.c	/^bool checkCanAttack(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
+checkNotSamePos	./c/queen-attack/queen_attack.c	/^bool checkNotSamePos(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
 clean	./c/collatz-conjecture/makefile	/^clean:$/;"	t
 clean	./c/grains/makefile	/^clean:$/;"	t
 clean	./c/hello-world/makefile	/^clean:$/;"	t
@@ -5582,7 +5573,6 @@ clean	./c/resistor-color/makefile	/^clean:$/;"	t
 color_code	./c/resistor-color/resistor_color.c	/^uint16_t color_code(resistor_band_t color) {$/;"	f	typeref:typename:uint16_t
 colors	./c/resistor-color/resistor_color.c	/^const resistor_band_t* colors(void) {$/;"	f	typeref:typename:const resistor_band_t *
 column	./c/queen-attack/queen_attack.h	/^   uint8_t column;$/;"	m	struct:__anon9f3e92310208	typeref:typename:uint8_t
-column	c/queen-attack/queen_attack.h	/^   uint8_t column;$/;"	m	struct:__anon1cf73cae0208	typeref:typename:uint8_t
 contributors	./c/collatz-conjecture/.exercism/config.json	/^  "contributors": [$/;"	a
 contributors	./c/grains/.exercism/config.json	/^  "contributors": [$/;"	a
 contributors	./c/hello-world/.exercism/config.json	/^  "contributors": [$/;"	a
@@ -5656,8 +5646,7 @@ id	./c/hello-world/.exercism/metadata.json	/^{"track":"c","exercise":"hello-worl
 id	./c/leap/.exercism/metadata.json	/^{"track":"c","exercise":"leap","id":"d083d0afd3a140d3a7830eff44f20742","url":"https:\/\/exercism/;"	s
 id	./c/queen-attack/.exercism/metadata.json	/^{"track":"c","exercise":"queen-attack","id":"e909fd78f16e4aa8841c2a75d6bafc92","url":"https:\/\//;"	s
 id	./c/resistor-color/.exercism/metadata.json	/^{"track":"c","exercise":"resistor-color","id":"89952c631e684fa2855d03ddd310e27e","url":"https:\//;"	s
-initNotNegativeCheck	./c/queen-attack/queen_attack.c	/^bool initNotNegativeCheck(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
-initNotOutOfBoundCheck	c/queen-attack/queen_attack.c	/^bool initNotOutOfBoundCheck(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
+initNotOutOfBoundCheck	./c/queen-attack/queen_attack.c	/^bool initNotOutOfBoundCheck(position_t queen_1, position_t queen_2) {$/;"	f	typeref:typename:bool
 is_requester	./c/collatz-conjecture/.exercism/metadata.json	/^{"track":"c","exercise":"collatz-conjecture","id":"d3c15fa0cd9a467b86c2bf0d4cb31309","url":"http/;"	b
 is_requester	./c/grains/.exercism/metadata.json	/^{"track":"c","exercise":"grains","id":"7f2b40a416de4df5b5915f8db6b8021b","url":"https:\/\/exerci/;"	b
 is_requester	./c/hello-world/.exercism/metadata.json	/^{"track":"c","exercise":"hello-world","id":"c61f057d322546c781cc7924ee5ad292","url":"https:\/\/e/;"	b
@@ -5690,10 +5679,8 @@ memcheck	./c/leap/makefile	/^memcheck: .\/*.c .\/*.h$/;"	t
 memcheck	./c/queen-attack/makefile	/^memcheck: .\/*.c .\/*.h$/;"	t
 memcheck	./c/resistor-color/makefile	/^memcheck: .\/*.c .\/*.h$/;"	t
 position_t	./c/queen-attack/queen_attack.h	/^} position_t;$/;"	t	typeref:struct:__anon9f3e92310208
-position_t	c/queen-attack/queen_attack.h	/^} position_t;$/;"	t	typeref:struct:__anon1cf73cae0208
 resistor_band_t	./c/resistor-color/resistor_color.h	/^} resistor_band_t;$/;"	t	typeref:enum:__anon03ce40790103
 row	./c/queen-attack/queen_attack.h	/^   uint8_t row;$/;"	m	struct:__anon9f3e92310208	typeref:typename:uint8_t
-row	c/queen-attack/queen_attack.h	/^   uint8_t row;$/;"	m	struct:__anon1cf73cae0208	typeref:typename:uint8_t
 setUp	./c/collatz-conjecture/test_collatz_conjecture.c	/^void setUp(void)$/;"	f	typeref:typename:void
 setUp	./c/grains/test_grains.c	/^void setUp(void)$/;"	f	typeref:typename:void
 setUp	./c/hello-world/test_hello_world.c	/^void setUp(void)$/;"	f	typeref:typename:void
